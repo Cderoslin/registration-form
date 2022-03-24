@@ -1,0 +1,154 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Merriweather', serif;
+}
+
+body {
+	color: #27333a;
+}
+
+.header .header-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background-color: #27333a;
+	color: #fff;
+	padding: 2rem;
+	text-transform: uppercase;
+	font-weight: 200;
+}
+
+.container {
+	max-width: 860px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+
+.signup {
+	text-align: center;
+}
+
+.top_line {
+	width: 100%;
+	padding: 0.094rem;
+	border-top: 0.313rem solid #27333a;
+	border-bottom: 0.188rem solid #52626b;
+	margin: 1.25rem 0rem;
+}
+section h2 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-weight: 800;
+}
+
+.signup p {
+	margin-bottom: 2rem;
+	font-size: 1.188rem;
+	color: rgb(119, 121, 129);
+}
+
+fieldset {
+	border: 0;
+}
+
+::placeholder {
+	font-family: 'Merriweather', serif;
+	font-size: 1.2rem;
+	font-weight: 400;
+	font-style: italic;
+}
+
+legend {
+	font-weight: 800;
+	font-size: 1.50rem;
+}
+
+label {
+	display: block;
+	margin-top: 1.5rem;
+	font-size: 1.1rem;
+	color: rgb(119, 121, 129);
+}
+
+input {
+	display: block;
+	width: 100%;
+	font-size: 18px;
+	padding: 1.25rem;
+	color: #333;
+	background-color: rgb(243, 241, 241);
+	border: none;
+	border-radius: .4rem;
+	margin-top: 15px;
+}
+
+select {
+	display: block;
+	width: 100%;
+	font-size: 18px;
+	padding: 1.25rem;
+	font-family: 'Merriweather', serif;
+	color: rgb(173, 173, 173);
+	background-color: rgb(243, 241, 241);
+	border: none;
+	border-radius: .4rem;
+	margin-top: 15px;
+}
+
+.bottom_line {
+	width: 100%;
+	border-top: 0.189rem solid #27333a;
+	margin: 2rem 0 1.5rem 0;
+}
+
+.newsletter {
+	margin-top: 0.938rem;
+	font-size: 1.188rem;
+	color: rgb(119, 121, 129);
+}
+
+#zip {
+	display: block;
+	width: 50%;
+	font-size: 18px;
+	padding: 1.25rem;
+	color: #333;
+	background-color: rgb(243, 241, 241);
+	border: none;
+	border-radius: .4rem;
+	margin-top: 15px;
+}
+
+input:focus,
+textarea:focus {
+	outline: 3px solid #09f;
+}
+
+textarea {
+	display: block;
+	border: none;
+	width: 100%;
+	height: 7.5rem;
+	margin: 5px 0;
+	padding: 8px;
+	border-radius: .4rem;
+	font-size: 18px;
+	color: rgb(173, 173, 173);
+	background-color: rgb(243, 241, 241);
+}
+
+button {
+	display: block;
+	width: 100%;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 1.25rem;
+	color: #fff;
+	background-color: rgb(8, 184, 184);
+	border: none;
+	border-radius: .4rem;
+	margin-top: 15px;
+}
