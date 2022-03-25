@@ -168,5 +168,24 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+	.section_1 label {
+		display: inline-block;
+		margin-top: 1.5rem;
+		font-size: 1.3rem;
+		color: rgb(119, 121, 129);
+	}
 	
+	.section_1 input {
+		display: inline-block;
+		width: 100%;
+		font-size: 18px;
+		padding: 1.25rem;
+		color: #333;
+		background-color: rgb(243, 241, 241);
+		border: none;
+		border-radius: .4rem;
+		margin-top: 15px;
+	}
+	
+
 }
