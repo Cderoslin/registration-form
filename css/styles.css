@@ -172,6 +172,14 @@ button {
 	margin-bottom: 30px;
 }
 
+footer {
+	display: flex;
+	margin: .8rem 0 2rem 0;
+	font-size: 1.5rem;
+	color: rgb(119, 121, 129);
+	justify-content: center;
+}
+
 @media screen and (min-width: 768px) {
 
 	.container{
@@ -179,26 +187,32 @@ button {
 		margin: 0 auto;
 		padding: 1.5rem;
 	}
-	
-	/* .section_1 label {
-		display: inline-block;
-		font-size: 1.3rem;
-		color: rgb(119, 121, 129);
-		text-align: left;
-		width: 156px;
+
+	form .contact-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: .8rem;
 	}
 
-	.section_1 input {
-		display: inline-block;
-		max-width: 100%;
-		font-size: 18px;
-		padding: 1.25rem;
-		color: #333;
-		background-color: rgb(243, 241, 241);
-		border: none;
-		border-radius: .4rem;
-		margin-top: 15px;
-	} */
+	form .zip-container {
+		display: flex;
+		justify-content: start;
+	}
 
+	.section_1 label {
+		width: 40%;
+	}
 
+	.zip-container label {
+		width: 28%;
+	}
+
+	.zip-container{
+		margin-top: .8rem;
+	}
+
+	#zip {
+		width: 30%;
+	}
 }
